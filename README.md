@@ -1,5 +1,8 @@
 # 1° Lista de Exercicios 
 
+
+###### (pfvr prof seja bonzinho) 
+
 ### Ex.1 : 
 
 Num mundo repleto de equações e problemas matemáticos, um estudante de programação se depara com o desafio de simplificar suas tarefas diárias. Ele percebe que, ao invés de recorrer sempre à calculadora física ou ao celular, poderia praticar suas habilidades de programação criando uma ferramenta personalizada.
@@ -29,7 +32,3 @@ Inspirado por essa necessidade comunitária, o objetivo é desenvolver um sistem
 Dica:
 
 “Projete uma classe `ContaBancaria` que encapsule os atributos de uma conta, como `numeroConta`, `nomeTitular` e `saldo`. Utilize modificadores de acesso para garantir o encapsulamento e a segurança dos dados. Implemente métodos para `depositar(valor)`, `sacar(valor)` e um método que retorne o `saldo` atual da conta. Lembre-se de que cada operação deve ajustar o saldo da conta de acordo com a transação realizada.”
-
- 
-
-###### (pfvr prof seja bonzinho) 
