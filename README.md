@@ -32,3 +32,53 @@ Inspirado por essa necessidade comunitária, o objetivo é desenvolver um sistem
 Dica:
 
 “Projete uma classe `ContaBancaria` que encapsule os atributos de uma conta, como `numeroConta`, `nomeTitular` e `saldo`. Utilize modificadores de acesso para garantir o encapsulamento e a segurança dos dados. Implemente métodos para `depositar(valor)`, `sacar(valor)` e um método que retorne o `saldo` atual da conta. Lembre-se de que cada operação deve ajustar o saldo da conta de acordo com a transação realizada.”
+
+### Ex.4 :
+
+Em um mundo cada vez mais digital, um grupo de amigos apaixonados por videogames percebeuma oportunidade de combinar seus hobbies com a prática de programação. Eles decidem criarum sistema para gerenciar perfis de jogadores em seus jogos favoritos, algo que permitiria acompanhar o progresso, as conquistas e as estatísticas de cada jogador de forma personalizadae automatizada. 
+
+Inspirado por esse projeto entre amigos, o desafio é desenvolver uma parte desse sistema degerenciamento de jogadores utilizando Java, com um foco especial na orientação a objetos. O sistema deve permitir a criação de perfis de jogadores, armazenando informações como nome, pontuação e nível. Além disso, deve ser possível atualizar a pontuação e o nível dos jogadores no sistema.
+
+Dica:
+
+“Crie a classe `Jogador`, que deverá conter atributos privados para o `nome`, `pontuacao` e `nivel`do jogador. Inclua um construtor para inicializar esses atributos e métodos públicos para permitira manipulação segura dessas informações — por exemplo, métodos para aumentar a pontuação,subir de nível e exibir as informações do jogador.”
+
+### Ex.5 :
+
+Em uma tranquila cidade conhecida por sua paixão por automobilismo, um grupo de entusiastas decarros clássicos decide organizar um evento para exibir seus veículos. Para tornar o evento mais interessante, eles planejam criar um sistema que permita aos participantes registrarem seus carros, incluindo informações detalhadas e a capacidade de controlar algumas funcionalidades dos carros, comoa velocidade. 
+
+Motivado por esse evento de carros clássicos, o desafio é desenvolver uma classe `Carro` em Java, aplicando os princípios da orientação a objetos. Este sistema deve permitir aos usuários criarem objetos `Carro` com informações como marca, modelo, ano e velocidade atual. Além disso, os carros devem ter métodos que permitam acelerar e frear, ajustando a velocidade atual de acordo com a ação realizada.
+
+Dica:
+
+“Desenvolva a classe ‘Carro’ com atributos privados para ‘marca’, ‘modelo’, ‘ano’, ‘placa’ e ‘velocidadeAtual’. Implemente um construtor para inicializar os atributos do carro quando um novo objeto é criado. Adicione métodos públicos para `acelerar()`, que aumenta a velocidade do carro, e `frear()`, que diminui a velocidade. Não esqueça deincluir um método para exibir as informações do carro, refletindo a importância da encapsulação e da interaçãoentre os objetos em um programa orientado a objetos.”
+
+### Ex.6 :
+
+Inspirado pela organização de um grande evento de networking, onde os participantes trocam contatos e informações profissionais, um desenvolvedor decide criar um sistema para gerenciar uma agenda de contatos. Este sistema ajudará os usuários a manter suas conexões organizadas, permitindo-lhes adicionar, remover e buscar contatos facilmente.
+
+Dica:
+
+“Crie as classes Agenda e Contato em Java. A classe Contato deve armazenar informações como nomee telefone, enquanto a classe Agenda deve gerenciar uma lista de contatos, com métodos para adicionar novos contatos e buscar contatos por nome.”
+
+### Ex.7 :
+
+Um empreendedor que gerencia um mercado local percebe a necessidade de um sistema para gerenciar o estoque de produtos em sua loja. Ele deseja desenvolver um programa em Java que seja capaz de registrar informações sobre os produtos disponíveis, controlar as quantidades em estoque e fornecer funcionalidades básicas de gerenciamento de estoque. O sistema proposto deve permitir que cada produto seja identificado por seu nome, um código único, um preço e a quantidade em estoque. 
+
+Os funcionários do mercado devem ser capazes de adicionar novos produtos ao estoque, atualizar asinformações de um produto existente e remover produtos do estoque quando necessário. Para facilitar o gerenciamento do mercado, o sistema também deve ser capaz de gerar relatórios sobre o estoque atual, incluindo informações como os produtos disponíveis, a quantidade em estoque e o valor total em estoque.
+
+Dica:
+
+“Como já deve ter entendido com os últimos exercícios, aqui você pode criar uma classe Produto que contém as informações sobre cada item do mercado, entre nome, código do produto, quantidade em estoque e preço. Neste caso, não é necessário criar uma classe Mercado para gerenciar o estoque individual de cadas mercado e pode-se utilizar a própria Main que faz o programa funcionar para isso.”
+
+### Ex.8 :
+
+Uma pizzaria local busca modernizar seu processo de registro de pedidos, optando por desenvolver um sistemaem Java que ofereça praticidade e eficiência aos seus clientes e funcionários. O objetivo é criar uma solução simples e acessível, capaz de armazenar detalhes fundamentais de cada pedido, como o tipo de pizza escolhida, otamanho desejado, o valor a ser pago e o endereço de entrega. Para atender a essa demanda, a empresa pretendeimplementar uma classe Pedido, responsável por todas as operações relacionadas aos pedidos. 
+
+Dentro da classe Pedido, os funcionários poderão adicionar novos pedidos ao sistema, fornecer detalhes específicos sobre cada pedido, como sabor da pizza e endereço de entrega, além de ter a capacidade de cancelar pedidos, se necessário. Além disso, o sistema será capaz de gerar um relatório completo de todos os pedidos registrados, oferecendo insights valiosos, como o número total de pedidos realizados e a média de preço dospedidos. Essa abordagem integrada visa simplificar e otimizar o processo de registro e gerenciamento de pedidos, contribuindo para uma experiência mais eficiente e satisfatória tanto para a pizzaria quanto para seus clientes. 
+
+Além disso, faça com que o sistema já tenha algumas pizzas cadastradas com nome para serem escolhidas em um menu antes de adicionadas ao pedido. Desta forma, além da classe Pedido responsável por gerenciar os pedidos realizados na pizzaria, cria uma classe Pizza que contenha o nome, valor e ingredientes de cada pizza a ser escolhida em um pedido.
+
+Obs:
+
+“Os objetos “pizzas” da classe pizza podem ser criados e adicionados manualmente em uma lista pelo códigona main. Mas caso queira, é possível também fazer um menu para adicionar novos sabores além dos existentes.”
