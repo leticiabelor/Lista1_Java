@@ -1,7 +1,7 @@
 # 1° Lista de Exercicios 
 
 
-###### (pfvr prof seja bonzinho) 
+###### (pfvr prof seja bonzinho eu sou desprovida de inteligencia) 
 
 ### Ex.1 : 
 
